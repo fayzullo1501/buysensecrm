@@ -1,0 +1,20 @@
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+.page-button.active {
+    background-color: #333;
+    color: #fff;
+}

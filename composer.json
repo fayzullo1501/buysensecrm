@@ -1,0 +1,18 @@
+{
+    "name": "fayzullo-abdulazizov/buysensecrm",
+    "description": "developer",
+    "autoload": {
+        "psr-4": {
+            "FayzulloAbdulazizov\\Buysensecrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fayzullo",
+            "email": "92411568+fayzullo1501@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.20"
+    }
+}

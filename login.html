@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Авторизация</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .left-side {
+            width: 45%;
+            background: url(./images/bismillah.png) center top no-repeat;
+            background-size: cover;
+        }
+
+        .right-side {
+            width: 30%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            width: 300px;
+            text-align: left;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container form {
+            margin-top: 20px;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666565;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"],
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #d5d3d3;
+            border-radius: 4px;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #07223f;
+            color: white;
+            cursor: pointer;
+            width: 320px;
+            height: 45px;
+        }
+
+        .forgot-password {
+            text-align: center;
+            padding-left: 40px;
+        }
+        .forgot-password a{
+            text-decoration: none;
+            color: #07223f;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="left-side"></div>
+    <div class="right-side">
+        <div class="login-container">
+            <h2>Вход в систему</h2>
+            <form method="post" action="index.php">
+                <label for="email">Введите email:</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Введите пароль:</label>
+                <input type="password" name="password" id="password">
+                <input type="submit" name="login" value="Продолжить">
+                <div class="forgot-password">
+                    <a href="tel:/+998999961696">Забыли пароль?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

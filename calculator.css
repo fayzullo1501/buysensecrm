@@ -1,0 +1,167 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Стилизация кнопок и формы */
+.action-buttons {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-form input[type="submit"] {
+    background-color: #07223f;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #07223f;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.content {
+    width: 85%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.menu-item img {
+    width: 20px;
+    height: auto;
+}
+
+.spacer {
+}
+
+.bottom-menu {
+    margin-top: auto;
+}
+
+.country-map {
+    width: 70%;
+    height: auto;
+    align-items: center 
+}
+a {
+text-decoration: none;
+color: #000;
+}
+.edit-button, .delete-button {
+background-color: #07223f;
+color: white;
+border: none;
+padding: 6px 10px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 5px;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #04396c;
+}
+
+.category-form {
+text-align: right;
+margin-bottom: 20px;
+}
+
+
+
+/* Стилизация формы калькулятора */
+#calculatorForm {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#calculatorForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#calculatorForm input[type="number"],
+#calculatorForm select {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calculatorForm button {
+    background-color: #07223f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculatorForm button:hover {
+    background-color: #04396c;
+}
+
+/* Стилизация блока результатов */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
